@@ -110,12 +110,13 @@ function Pomodoro() {
   }
   
   function handleStop(){
-    if(isTimerRunning){
+    
       setIsTimerRunning((currentState) => false);
-      setSession((currentSession)=>null);
-      setFocusDuration(initialFocus);
-      setBreakDuration(initialBreak);
-    }
+      setSession(null);
+      if(session){
+        setFocusDuration(initialFocus);
+        setBreakDuration(initialBreak);
+      }
   }
 
 
@@ -215,7 +216,7 @@ function Pomodoro() {
               data-testid="stop"
               title="Stop the session"
               onClick={handleStop}
-              disabled={!isTimerRunning}
+              //disabled={!isTimerRunning}
             >
               <span className="oi oi-media-stop" />
             </button>
