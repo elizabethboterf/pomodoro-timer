@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import classNames from "../utils/class-names";
 import useInterval from "../utils/useInterval";
-import {minutesToDuration, secondsToDuration} from "../utils/duration";
-import { getByTestId } from "@testing-library/react";
-import ProgressBar from "./progress-bar.js"
-import SessionStarted from "./session-started.js"
+import {minutesToDuration} from "../utils/duration";
+import SessionStarted from "./session-started.js";
 
 // These functions are defined outside of the component to insure they do not have access to state
 // and are, therefore more likely to be pure.
