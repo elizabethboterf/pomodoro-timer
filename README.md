@@ -6,7 +6,7 @@ A website timer that alternates between to modifiable durations
 [Live page](https://elizabethboterf.github.io/pomodoro-timer/)
 
 ---
-##Screenshots
+## Screenshots
 -> Start Page
 ![start page](https://user-images.githubusercontent.com/85326605/135696115-ea94fe94-bc55-4722-8bab-779aadaea5a7.jpeg)
 
