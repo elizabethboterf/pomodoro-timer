@@ -1,5 +1,5 @@
 # Pomodoro Timer
-A website timer that alternates between to modifiable durations
+A website timer that allows a user to alternate between two different durations. The use can modify the length of both durations. When the user starts the timer, a display bar will pop up to represent the time remaining for the duration. When the timer comes to the end of one duration, an alarm sounds and the timer switches to the other durations. This cycle repeats until the user stops the timer. The user also has the ability to pause the cycle.
 
 ---
 ## Link
